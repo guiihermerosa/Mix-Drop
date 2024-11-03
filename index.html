@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <title>Spotify API</title>
+</head>
+<body>
+    <h1>Informações do Artista</h1>
+    <form id="formArtista">
+        <label for="nomeArtista">Nome do Artista:</label>
+        <input type="text" id="nomeArtista" required>
+        <button type="submit">Buscar</button>
+    </form>
+    <p>Nome: <span id="artistaNome"></span></p>
+    <p>Popularidade: <span id="artistaPopularidade"></span></p>
+    <p>Seguidores: <span id="artistaSeguidores"></span></p>
+    <img id="artistaImagem" src="" alt="Imagem do Artista" style="display: none; max-width: 200px;">
+
+    <h2>Músicas Mais Conhecidas</h2>
+    <ul id="listaMusicas"></ul>
+
+    <h2>Favoritos</h2>
+     <ul id="listaFavoritos"></ul>
+
+    <h2>Player</h2>
+    <iframe id="player" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+</body>
+</html>
