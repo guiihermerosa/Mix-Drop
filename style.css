@@ -1,0 +1,165 @@
+/* style.css */
+
+body {
+  margin: 0; /* Remove a margem padrão do body */
+  font-family: Arial, sans-serif; /* Fonte padrão */
+  background-color: #121212; /* Cor de fundo do site (cinza escuro) */
+  color: #ddd; /* Cor padrão do texto para garantir boa legibilidade */
+}
+.container{
+  h1{
+    font-size: 36px;
+    color: #ddd;
+    padding: 20px;
+  } 
+  p{
+    font-size: 18px;
+    color: #ddd;
+    padding: 5px;
+  }
+
+}
+.right-column #listaMusicas{
+  padding: 20px;
+ font-weight: bold;
+  list-style-type: none;
+  margin: 0;
+  overflow-y: auto;
+  max-height: 200px;
+  overflow-x: hidden;
+  
+   
+}
+.right-column #listaFavoritos{
+  padding: 20px;
+ font-weight: bold;
+  list-style-type: none;
+  margin: 0;
+  overflow-y: auto;
+  max-height: 200px;
+  overflow-x: hidden;
+
+}
+.right-column #player{
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: .5s linear;
+  
+  &:focus {
+    outline: none;
+    background-color: #8f8f8f;
+  }
+}
+#nomeArtista{
+  padding: 9px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: #282828; 
+  font-size: 18px;  
+  transition: background-color 0.3s; 
+  &:hover { 
+    background-color: #8f8f8f;
+  }
+  &:focus {
+    outline: none;
+    background-color: #8f8f8f;
+  }
+ 
+}
+
+#formArtista button {
+
+  padding: 9px 18px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: #282828; 
+  font-size: 18px;  
+  transition: background-color 0.3s; 
+  &:hover { 
+    background-color: #8f8f8f;
+  }
+  &:focus {
+    outline: none;
+    background-color: #8f8f8f;
+  }
+}
+.header {
+  display: flex;
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+  align-items: center; /* Alinha verticalmente ao centro */
+  padding: 10px 20px; /* Padding para o header */
+  width: 97%;
+  background-color: #283334; /* Cor de fundo do header */
+}
+
+#artistaImagem {
+  margin-top: 10px;
+  border-radius: 8px;
+  max-width: 70%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s;
+  width: 300px;
+
+}
+
+.logo {
+  font-size: 24px; 
+  font-weight: bold;
+  color: #fff; 
+  text-decoration: none; 
+  background-color: #1DB954; 
+  padding: 10px 20px; 
+  border-radius: 30px; 
+  transition: background-color 0.3s; 
+}
+
+.logo:hover {
+  background-color: #1ed760; 
+}
+
+.container {
+  display: flex; /* Usado para alinhar as colunas lado a lado */
+}
+
+.left-column, .right-column {
+  padding: 20px; /* Espaçamento interno nas colunas */
+}
+
+.left-column {
+  flex: 1; /* Permite que a coluna esquerda ocupe espaço proporcionalmente */
+}
+
+.right-column {
+  flex: px; /* Permite que a coluna direita ocupe mais espaço proporcionalmente */
+}
+
+h1, h2 {
+  color: #fff; /* Altera a cor do texto para branco */
+}
+
+h1 {
+  margin-bottom: 10px; /* Espaçamento abaixo do h1 */
+}
+
+p, label {
+  color: #ddd; /* Cor mais suave para o texto */
+}
+
+button {
+  background-color: #1DB954; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none; /* Remove a borda do botão */
+  padding: 4px 7px; /* Padding do botão */
+  border-radius: 30px; /* Borda arredondada */
+  cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+  background-color: #1ed760; /* Cor de fundo do botão ao passar o mouse */
+}
