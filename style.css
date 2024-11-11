@@ -1,0 +1,313 @@
+
+body {
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    background: linear-gradient(200deg,#282828,#048331) 
+  }
+  .container{
+    h1{
+      font-size: 36px;
+      color: #ddd;
+      padding: 20px;
+    } 
+    p{
+      font-size: 18px;
+      color: #ddd;
+      padding: 5px;
+    }
+ #listaFavoritos  li {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+ border-radius: 8px;
+
+
+ }
+    .right-column h2{
+        font-size: 24px; 
+        font-weight: bold;
+        color: #fff; 
+        text-decoration: none; 
+        background-color: #1DB954; 
+        padding: 10px 20px; 
+        border-radius: 30px; 
+        text-align: center;
+
+    }
+
+  }
+  .right-column #listaMusicas{
+    padding: 20px;
+   font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    overflow-y: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+    color: #fff;
+    
+    
+     
+  }
+  .right-column #listaFavoritos{
+    padding: 20px;
+   font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    overflow-y: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+    color: #fff;
+  
+  }
+  .right-column #player {
+    width: 80%; 
+    max-width: 600px; 
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 px auto; 
+    cursor: pointer;
+    transition: 0.5s linear;
+    
+    &:focus {
+      outline: none;
+      background-color: #8f8f8f;
+    }
+  }
+  #nomeArtista{
+    padding: 9px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #282828; 
+    font-size: 18px;  
+    transition: background-color 0.3s; 
+    &:hover { 
+      background-color: #8f8f8f;
+    }
+    &:focus {
+      outline: none;
+      background-color: #8f8f8f;
+    }
+   
+  }
+  
+  #formArtista button {
+  
+    padding: 9px 18px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #000000; 
+    font-size: 18px;  
+    transition: background-color 0.3s; 
+    &:hover { 
+      background-color:#1DB954;
+    }
+    &:focus {
+      outline: none;
+      background-color: #8f8f8f;
+    }
+  }
+  .header {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 10px 20px; 
+    width: 97%;
+    background-color: #000000; 
+  }
+  
+  #artistaImagem {
+    margin-top: 10px;
+    border-radius: 8px;
+    max-width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s;
+    width: 300px;
+  
+  }
+
+  .Contato{
+
+    font-size: 15px; 
+    font-weight: bold;
+    color: #fff; 
+    text-decoration: none; 
+    background-color: #1DB954; 
+    padding: 10px 20px; 
+    border-radius: 30px; 
+    transition: background-color 0.3s; 
+
+  }
+
+  .Home{
+    font-size: 15px; 
+    font-weight: bold;
+    color: #fff; 
+    text-decoration: none; 
+    background-color: #1DB954; 
+    padding: 10px 20px; 
+    border-radius: 30px; 
+    transition: background-color 0.3s; 
+    margin: 5px;
+  }
+
+  
+  .logo {
+    font-size: 15px; 
+    font-weight: bold;
+    color: #fff; 
+    text-decoration: none; 
+    background-color: #1DB954; 
+    padding: 10px 20px; 
+    border-radius: 30px; 
+    transition: background-color 0.3s;
+    margin-right: 1000px;
+  }
+  
+  .container {
+    display: flex; 
+  }
+  
+  .left-column, .right-column {
+    padding: 20px; 
+  }
+  
+  .left-column {
+    flex: 1; 
+  }
+  
+  .right-column {
+    flex: px; 
+  }
+  
+  h1, h2 {
+    color: #fff; 
+  }
+  
+  h1 {
+    margin-bottom: 10px; 
+  }
+  
+  p, label {
+    color: #ddd; 
+  }
+  
+  button {
+    background-color: #1DB954; 
+    color: #fff;
+    border: none; 
+    padding: 4px 7px; 
+    border-radius: 30px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #1ed760; 
+  }
+
+  footer{
+
+    margin-top: auto;
+    color: #1ed760;
+    text-align: center;
+    padding: 30px;
+    background-color: #000000;
+    
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 300px 30px;
+    background-image: url(festas\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: 1000;
+
+  }
+
+  .hero h1 {
+    font-size: 60px;
+    color: #1DB954;
+    margin-top: -300px;
+  }
+
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+
+  .sobre{
+    
+    font-size: 20px; 
+    font-weight: bold;
+    color: #fff; 
+    text-decoration: none; 
+    background-color: #000000; 
+    padding: 10px 20px; 
+    border-radius: 30px; 
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+  }
+
+  .sobre:hover{
+    transform: scale(1.1);
+    background-color: #048331;
+  }
+
+
+  .sobre:active{
+
+    transform: scale(1);
+    background-color: #000000;
+  }
+  
+  .caixa-texto {
+    opacity: 0; 
+    padding: 40px;
+    margin: 10px;
+    color: #fff;
+    background-color:#1ed760;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: -100%; 
+    transition: left 1s ease, opacity 1s ease; 
+  }
+
+  .mostrar {
+    left: 50%; 
+    opacity: 1; 
+    transform: translateX(-50%);
+  }
+
+  .container-caixas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 9%;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    flex-direction: row;
+  }
+
+
+    
+
+  

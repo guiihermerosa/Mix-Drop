@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <script src="https://sdk.scdn.co/spotify-player.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>MIX DROP</title>
+</head>
+<body>
+    
+    <div class="header">
+        <a href="index.html" class="logo">MIXDROP</a>
+        <a href="Home.html" class="Home">Home</a>
+        <a href="Contato" class="Contato">Contato</a>
+
+    </div>
+    
+    <div class="container">
+        <div class="left-column">
+            <h1>Informações do Artista</h1>
+            <form id="formArtista">
+                <label for="nomeArtista">Nome do Artista:</label>
+                <input type="text" id="nomeArtista" required>
+                <button type="submit">Buscar</button>
+            </form>
+            <p>Nome: <span id="artistaNome"></span></p>
+
+            <p>Seguidores: <span id="artistaSeguidores"></span></p>
+            <img id="artistaImagem" src="" alt="Imagem do Artista" style="display: none;">
+        </div>
+
+        <div class="right-column">
+            <div>
+                <h2>Músicas Mais Conhecidas</h2>
+                <ul id="listaMusicas"></ul>
+            </div>
+            <div>
+                <h2>Favoritos</h2>
+                <ul id="listaFavoritos"></ul>
+            </div>
+            <div>
+                <button id="playButton">Play/Pause</button> 
+                <button id="nextButton">Próxima</button>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        Todos os direitos reservados por FEMA @ Instituto Educacional Do Municipio De ASSIS
+    </footer>
+ 
+</body>
+</html>
